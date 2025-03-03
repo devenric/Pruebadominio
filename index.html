@@ -5,99 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
     <style>
-        .grid {
-            display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: auto 1fr auto;
-            width: 100%;
-            height: 100vh;
-        }
 
-        .header {
-            grid-column: 1/4;
-            grid-row: 1/2;
-            background-color: #1486DE;
-            height: 50px;
-            text-align: center;
-            align-content: center;
-            font-size: 30px;
-        }
-
-        .izq {
-            background-color: rgb(216, 215, 220);
-            grid-column: 1/2;
-            grid-row: 2/3;
-        }
-
-        .dere {
-            background-color: rgb(216, 215, 220);
-            grid-column: 3/4;
-            grid-row: 2/3;
-        }
-
-        .centro {
-            background-color: rgb(241, 241, 241);
-            grid-column: 2/3;
-            grid-row: 2/3;
-            padding-left: 200px;
-            padding-right: 200px;
-        }
-
-        .footer {
-            background-color: red;
-            grid-column: 1/4;
-            grid-row: 3/4;
-            width: 100%;
-            height: 50px;
-            text-align: center;
-        }
-
-        .aboutme {
-            position: absolute;
-            background-color: #1486DE;
-            width: 400px;
-            text-align: center;
-            border-radius: 10px;
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            position: absolute;
-            top: 150px;
-            left: 400px;
-        }
-
-        .competencias {
-            position: absolute;
-            background-color: #1486DE;
-            width: 400px;
-            text-align: center;
-            border-radius: 10px;
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-
-        .aboutme {
-            position: absolute;
-            background-color: #1486DE;
-            width: 400px;
-            text-align: center;
-            border-radius: 10px;
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            word-wrap: break-word;
-        }
-
-        .titulos {
-            font-size: 30px;
-            font-style: oblique;
-            font-style: bold;
-        }
     </style>
 </head>
 
@@ -105,10 +15,11 @@
     <div class="grid">
         <div class="header">Mi web</div>
         <div class="izq">
-            <div class="pic" img src="pic.png"></div>
+
         </div>
         <div class="dere"></div>
         <div class="centro">
+            <div class="pic"><img src="pic.png"></div>
             <div class="aboutme">
                 <p class="titulos">Sobre mí</p>
                 Soy un apasionado de la informática y mi objetivo es poder desarrollarme, seguir
@@ -117,7 +28,7 @@
                 era
                 lo que quería estudiar, posteriormente trabajar y además aprender de una manera práctica.
             </div>
-            <div class="competencias">
+            <div class="compete     ">
                 <p></p>
             </div>
         </div>
