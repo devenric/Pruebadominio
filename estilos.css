@@ -14,7 +14,7 @@
     grid-column: 1/4;
     grid-row: 1/2;
     background-color: #1486DE;
-    height: 50px;
+    height: 100px;
     text-align: center;
     align-content: center;
     font-size: 30px;
@@ -85,4 +85,27 @@
 .pic {
     width: 200px;
     height: 200px;
+}
+
+.menu {
+
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+    color: white;
+
+
+}
+
+.links {
+    list-style-type: none;
+    font-size: 30px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a {
+    color: white;
 }
