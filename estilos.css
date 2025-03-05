@@ -26,6 +26,9 @@
     grid-column: 1/2;
     grid-row: 2/3;
     width: 400px;
+    height: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .dere {
@@ -33,6 +36,9 @@
     grid-column: 3/4;
     grid-row: 2/3;
     width: 400px;
+    height: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .centro {
@@ -41,18 +47,13 @@
     grid-row: 2/3;
     padding-left: 200px;
     padding-right: 200px;
+    overflow-y: auto;
+    height: calc(100vh - 100px);
+    height: 100vh;
+
 }
 
-.footer {
-    background-color: red;
-    grid-column: 1/4;
-    grid-row: 3/4;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    position: sticky;
-    bottom: 0;
-}
+
 
 .aboutme {
     position: absolute;
@@ -67,17 +68,36 @@
     top: 150px;
     left: 400px;
     word-wrap: break-word;
+    margin: 0 auto;
 }
 
-.competencias {
-    position: absolute;
+.flex {
+    display: flex;
+}
+
+.item_dere {
+    display: flex;
+    ;
     background-color: #1486DE;
     width: 400px;
     text-align: center;
     border-radius: 10px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
 }
+
+.item_izq {
+    background-color: #1486DE;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+}
+
+
 
 .titulos {
     font-size: 30px;
@@ -101,6 +121,7 @@
     color: white;
     align-items: center;
 
+
 }
 
 .links {
@@ -110,6 +131,8 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 10px;
+    position: sticky;
+    top: 150px;
 }
 
 a {
